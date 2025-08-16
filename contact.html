@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="mega.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+    <header>
+        <div class="logobox">
+          <h1>CodingGo</h1>       
+        </div>
+        <div class="navlinks">
+            <a href="mega.html" class="links">Home</a>
+            <a href="service.html" class="links">courses</a>
+            <a href="about.html" class="links">about</a>
+            <a href="contact.html" class="links">contact</a>
+            <a href="blog.html" class="links">blog</a>
+        </div>
+    </header>
+
+    <section class="sec-contact">
+  <div class="container">
+    <h2 class="common-heading">Contact Us</h2>
+    <p class="common-subheading">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+  </div>
+
+  <div class="container grid two-grid-columns mb-3">
+    <div class="contact-content">
+      <form action="https://formspree.io/f/xvgqlkvb" method="POST">
+        <div class="grid two-grid-columns">
+          <div>
+            <label for="username">username</label>
+            <input type="text" name="username" 
+            id="username" required 
+            autocomplete="off"
+            placeholder="Enter your name">
+          </div>
+
+          <div>
+            <label for="email">Enter your valid email</label>
+            <input type="email" name="email" id="email"
+             autocomplete="off" 
+             required placeholder="abc@yahoo.com">
+          </div>
+        </div>
+
+          <div class="mb-3">
+    <label for="subject">subject</label>
+    <input type="text" name="subject" id="subject" 
+    placeholder="Enter subject">
+  </div>
+
+  <div class="mb-3">
+    <label for="message">message</label>
+    <textarea name="message" id="message"
+    cols="30" rows="10"
+    placeholder="Enter your message">
+  </textarea>
+  </div>
+
+  <div>
+    <button type="submit" class="btn btn-submit">send message
+    </button>
+  </div>
+      </form>
+    </div>
+
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234700.3459571227!2d77.24107603699908!3d23.199639468546167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1754937782067!5m2!1sen!2sin" 
+      width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+    
+    </section>
+    </body>
+</html>
